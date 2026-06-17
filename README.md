@@ -58,11 +58,11 @@ The analysis combines statistical hypothesis testing with two predictive modelli
 - Chi-square tests for churn association with gender, promotions, and referrals
 - Independent t-test comparing watch hours between churned and retained users
 
-**5. Predictive Modelling — Logistic Regression**
+**5. Predictive Modelling - Logistic Regression**
 - Classification model to predict churn, using `class_weight='balanced'` and a custom 0.3 probability threshold
 - Evaluated via confusion matrix, precision/recall/F1, and ROC-AUC
 
-**6. Predictive Modelling — Linear Regression**
+**6. Predictive Modelling - Linear Regression**
 - Predicted `average_watch_hours` from user features
 - Evaluated via R² and RMSE, with coefficient interpretation
 
